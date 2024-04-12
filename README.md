@@ -1,2 +1,2 @@
-# shredwebsitecctptest
-CCTP website testing on deployment
+# Shred Test
+ Website test for CCTP

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="signup_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+</head>
+
+<body>
+
+    <div class="siup_content">
+        <div class="siup_imgs">
+            <img class="top_img" src="assets/image 19.png" alt="">
+            
+            <img class="bottom_img" src="assets/image 21.png" alt="">
+        </div>
+
+        <div class="siup_container">
+            <div class="siup_form">
+
+                <div class="return_home">
+                    <a href="index.html"><button type="button" class="back_but">Back</button></a>
+                </div>
+
+                <img class="form_logo" src="assets/shred_logo.svg" alt="form logo">
+
+                <div class="form_text">
+                    
+
+                    <h1>
+                        Get Started
+
+                    </h1>
+                    <p>
+                        Begin your Shred adventure by joining the most inclusive <br> skateboarding group around.
+                    </p>
+                </div>
+
+
+                <form action="">
+                    <input class="name_field" type="text" placeholder="Your name"> <br>
+                    <input class="email_field" type="email" placeholder="Email address"><br>
+                    <input class="password_field" type="password" id="password" placeholder="Password"><br>
+                    <div class="form_links">
+                        <input class="showp_box" type="checkbox" onclick="showPassword()">Show Password
+                        <div class="right_link">
+                            <a class="fp_link" href="#">Forgot Password?</a>
+                        </div>
+                    </div>
+                    <input class="signup_but" type="submit" value="Sign up">
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function showSidebar() {
+            const nav_sidebar = document.querySelector('.nav_sidebar')
+            nav_sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const nav_sidebar = document.querySelector('.nav_sidebar')
+            nav_sidebar.style.display = 'none'
+        }
+
+        function showPassword() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
