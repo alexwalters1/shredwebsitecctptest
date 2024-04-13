@@ -167,8 +167,16 @@ nav li:first-child{
         width: 100%;
     }
 
-    .au1_type > h1, .au1_type > h1, .au3_type > h1, .ins_text > h2 {
+    .au1_type > h1{
         font-size: 48px !important;
+    }
+
+    .au2_type > h1, .au3_type > h1, .ins_text > h2 {
+        font-size: 36px !important;
+    }
+
+    .au2_type > p, .au3_type > p, .ins_text > p {
+        font-size: 16px !important;
     }
 }
 

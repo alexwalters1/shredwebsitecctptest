@@ -185,8 +185,16 @@ nav li:first-child{
         width: 100%;
     }
 
-    .statement_type > h1, .title1 > h1, .title2 > h1{
+    .statement_type > h1{
         font-size: 48px !important;
+    }
+
+    .title1 > h1, .title2 > h1{
+        font-size: 36px !important;
+    }
+
+    .title1 > p, .title2 > p{
+        font-size: 16px !important;
     }
 
 }

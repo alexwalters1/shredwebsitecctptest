@@ -173,9 +173,23 @@ nav li:first-child{
         width: 100%;
     }
 
-    .statement_type > h1, .wwd_text > h2, .vau_text > h2{
+    .statement_type > h1{
         font-size: 48px !important;
     }
+
+    .wwd_text > h2, .vau_text > h2, .featp_text > h2{
+        font-size: 36px !important;
+    }
+
+    .more_button{
+        padding-top: 50px !important;
+    }
+
+    .wwd_text > p, .vau_text > p, .featp_text > p{
+        font-size: 16px !important;
+    }
+
+
 }
 
 @media (max-width: 374px){
